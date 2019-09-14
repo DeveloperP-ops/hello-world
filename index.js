@@ -12,5 +12,5 @@
 12           message.channel.send("PONG");
 13     }});
 14
-15 client.login("process.env.token");
+15 client.login(process.env.token);
 16
