@@ -10,7 +10,7 @@
      client.on("message", (message) -> {
        if(message.content.startWith(PREFIX + "ping")){
              message.channel.send("PONG");
-       }});
+       }]);
 
    client.login(process.env.token);
 
